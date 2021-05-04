@@ -1,2 +1,0 @@
-# clientproject
-Created with CodeSandbox

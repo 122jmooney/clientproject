@@ -1,0 +1,70 @@
+html {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.cardimg {
+  height: 280px;
+}
+body {
+  background-color: #800020;
+}
+.jumbotron {
+  background-color: #800020;
+  font-family: "Kaushan Script", cursive;
+}
+.jumbotrontext {
+  font-size: 160px;
+}
+.one {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Indie Flower", cursive;
+}
+.jsimg {
+  height: 300px;
+}
+.btn {
+  font-family: "Indie Flower", cursive;
+}
+.navbar {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+.jsimg {
+  transition: transform 0.5s; /* Animation */
+  margin: 0 auto;
+}
+
+.jsimg:hover {
+  transform: scale(1.25);
+}
+.cardimg {
+  transition: transform 0.8s; /* Animation */
+  margin: 0 auto;
+}
+
+.cardimg:hover {
+  transform: scale(1.1);
+}
+.logo {
+  height: 65px;
+  width: 65px;
+}
+.food {
+  font-size: 25px;
+}
+.price {
+  font-size: 18px;
+}
+.cardimg2 {
+  height: 280px;
+  width: 280px;
+}
+.cardimg2 {
+  transition: transform 0.8s; /* Animation */
+  margin: 0 auto;
+}
+
+.cardimg2:hover {
+  transform: scale(1.1);
+}
