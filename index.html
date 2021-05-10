@@ -11,21 +11,25 @@
     <title>Rose Bakery</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
-              </li>
-          </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4 jumbotrontext">Rose Bakery</h1>
@@ -34,27 +38,28 @@
         <br>
         <div class="card-deck one">
           <div class="card">
-            <img src="img/bakeryfood.jpg" class="card-img-top cardimg" alt="...">
+            <img src="img/bakeryfood.jpg" class="card-img-top cardimg3" alt="...">
             <div class="card-body">
               <p class="card-text">This is just some of the delicious desserts we serve here at Rose Bakery!</p>
             </div>
           </div>
           <div class="card">
-            <img src="img/cake.jpg" class="card-img-top cardimg" alt="...">
+            <img src="img/cake.jpg" class="card-img-top cardimg3" alt="...">
             <div class="card-body">
               <p class="card-text">Here is a delicious slice of cake we serve!</p>
             </div>
           </div>
           <div class="card">
-            <img src="img/donuts.jpg" class="card-img-top cardimg" alt="...">
+            <img src="img/donuts.jpg" class="card-img-top cardimg3" alt="...">
             <div class="card-body">
               <p class="card-text">Order here for a great price on these donuts!</p>
             </div>
           </div>
         </div>
           <br>
-        <div class="row justify-content-center">
-          <img src="img/js1.jpg" class="jsimg" id="change" alt="">
+        <div class="container justify-content-center">
+          <div class=row>
+            <img src="img/js1.jpg" class="jsimg" id="change" alt="">
         </div>
           <br>
         <div class="row justify-content-center">
@@ -62,9 +67,8 @@
           <button type="button" onclick="document.getElementById('change').src='img/js3.jpg'" class="btn btn-dark btn-lg" style="margin:5px;">Cake</button>
           <button type="button" onclick="document.getElementById('change').src='img/js2.jpg'" class="btn btn-dark btn-lg" style="margin:5px;">Macaroons</button>
         </div>
+      </div>
           <br>
-
-
         <nav class="navbar bottom navbar-expand-lg navbar-dark bg-dark"">
             <div class="" id="navbarSupportedContent">
               <ul class="navbar-nav ">

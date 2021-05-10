@@ -13,7 +13,7 @@ body {
   font-family: "Kaushan Script", cursive;
 }
 .jumbotrontext {
-  font-size: 160px;
+  font-size: 110px;
 }
 .one {
   padding-left: 20px;
@@ -31,16 +31,18 @@ body {
   font-size: 30px;
 }
 .jsimg {
-  transition: transform 0.5s; /* Animation */
+  transition: transform 1.5s; /* Animation */
   margin: 0 auto;
 }
 
 .jsimg:hover {
-  transform: scale(1.25);
+  transform: scale(1.09);
 }
 .cardimg {
   transition: transform 0.8s; /* Animation */
   margin: 0 auto;
+  height: 180px;
+  width: 200px;
 }
 
 .cardimg:hover {
@@ -57,8 +59,8 @@ body {
   font-size: 18px;
 }
 .cardimg2 {
-  height: 280px;
-  width: 280px;
+  height: 180px;
+  width: 230px;
 }
 .cardimg2 {
   transition: transform 0.8s; /* Animation */
@@ -67,4 +69,20 @@ body {
 
 .cardimg2:hover {
   transform: scale(1.1);
+}
+.card {
+  background-color: rgb(52, 58, 64);
+  color: rgb(255, 255, 255);
+}
+.cardimg3 {
+  transition: transform 0.8s; /* Animation */
+  margin: 0 auto;
+  height: 240px;
+}
+
+.cardimg3:hover {
+  transform: scale(1.1);
+}
+.cart-title {
+  font-family: "Indie Flower", cursive;
 }
